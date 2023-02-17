@@ -1,0 +1,258 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  background: #2f303a;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 696px;
+  margin-left: 270px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+h3 {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+h4 {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #212121;
+}
+
+p {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  margin-bottom: 94px;
+}
+footer {
+  background: #2f303a;
+}
+
+.container {
+  width: 1240px;
+  border: 1px solid #ececec;
+  margin: 0 auto;
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
+.webstudio-header,
+.webstudio-footer {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.93;
+  letter-spacing: 0.03em;
+}
+
+.webstudio-header::after {
+  content: "Studio";
+  color: #212121;
+}
+.webstudio-footer::after {
+  content: "Studio";
+  color: #ffffff;
+}
+.navigation-list {
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
+}
+
+.navigation-link {
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-contact-details {
+  display: flex;
+  gap: 40px;
+  margin-left: 365px;
+}
+.header-contact-link {
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.navigation-link:hover,
+.header-contact-link:hover,
+.header-contact-link:focus,
+.navigation-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus,
+#address:hover,
+#address:focus {
+  color: #2196f3;
+}
+
+.values-description {
+  text-align: left;
+}
+
+.activity,
+.team,
+.values {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  gap: 30px;
+}
+
+.team-members-list {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.job-description {
+  text-align: center;
+}
+
+.request-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 19px;
+  padding-bottom: 10px;
+  display: flex;
+  margin: 0 auto;
+}
+.request-button:hover,
+.request-button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+.button {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: none;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+}
+.button:hover,
+.button:focus {
+  background: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 30px;
+}
+
+.cards-list {
+  box-sizing: border-box;
+  border-top: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.card-image {
+  width: 370px;
+  height: 294px;
+}
+.card-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.footer-contact-link {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.footer-contact {
+  margin-bottom: 12px;
+}
+
+#address {
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  padding-bottom: 28px;
+}
+
+.address {
+  margin-bottom: 28px;
+}
