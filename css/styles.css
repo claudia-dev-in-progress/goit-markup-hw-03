@@ -54,7 +54,6 @@ ul {
 header {
   display: flex;
   background: #ffffff;
-  /*border-bottom: 1px solid #ececec;*/
 }
 
 .header-border {
@@ -261,10 +260,6 @@ footer {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-}
-
-.footer-contact {
-  margin-bottom: 12px;
 }
 
 #address {
