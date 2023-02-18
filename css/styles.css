@@ -3,12 +3,12 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  background: #2f303a;
   color: #ffffff;
   text-transform: uppercase;
   width: 696px;
-  margin-left: 270px;
+  margin-left: 370px;
 }
+
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -54,24 +54,36 @@ ul {
 header {
   display: flex;
   background: #ffffff;
+  /*border-bottom: 1px solid #ececec;*/
+}
+
+.header-border {
+  width: 100%;
   border-bottom: 1px solid #ececec;
 }
 footer {
   background: #2f303a;
+  width: 100%;
 }
+
 .first-section {
-  padding-top: 50px;
+  padding-top: 70px;
   background: #2f303a;
-  height: 400px;
+  height: 480px;
+  width: 100%;
+}
+.second-section {
+  width: 100%;
+  padding-bottom: 94px;
+}
+
+.section {
+  padding-bottom: 94px;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-
-.section {
-  padding-bottom: 94px;
 }
 
 .webstudio-header,
@@ -83,6 +95,10 @@ footer {
   font-size: 26px;
   line-height: 1.93;
   letter-spacing: 0.03em;
+}
+
+.webstudio-footer {
+  margin-left: 35px;
 }
 
 .webstudio-header::after {
@@ -135,7 +151,13 @@ footer {
 .values {
   display: flex;
   gap: 30px;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.third-section {
+  background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-members-list {
@@ -250,9 +272,12 @@ footer {
   color: #ffffff;
   font-style: normal;
   text-decoration: none;
-  padding-bottom: 28px;
 }
 
 .address {
-  margin-bottom: 28px;
+  margin-bottom: 12px;
+}
+.footer-background {
+  width: 100%;
+  background: #2f303a;
 }
