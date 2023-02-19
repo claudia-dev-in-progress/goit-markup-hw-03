@@ -1,12 +1,33 @@
 h1 {
+  letter-spacing: 0.06em;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
   text-transform: uppercase;
-  width: 696px;
-  margin-left: 370px;
+  text-align: center;
+  width: 100%;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 50px;
+}
+
+.request-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  background: #2196f3;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  margin-right: 610px;
+  margin-left: 610px;
 }
 
 h2 {
@@ -52,7 +73,7 @@ ul {
 }
 
 header {
-  display: flex;
+  width: 100%;
   background: #ffffff;
 }
 
@@ -61,28 +82,35 @@ header {
   border-bottom: 1px solid #ececec;
 }
 footer {
+  font-weight: 400;
   background: #2f303a;
+  height: 251px;
+  padding-top: 50px;
   width: 100%;
 }
-
-.first-section {
-  padding-top: 70px;
-  background: #2f303a;
-  height: 480px;
-  width: 100%;
-}
-.second-section {
-  width: 100%;
-  padding-bottom: 94px;
-}
-
 .section {
   padding-bottom: 94px;
 }
-
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+.first-section {
+  padding-top: 70px;
+  background: #2f303a;
+  height: 550px;
+  width: 100%;
+}
+.second-section {
+  padding-bottom: 94px;
+  width: 100%;
+}
+.header-navigation {
+  display: flex;
+}
+
+.page-header {
+  display: flex;
 }
 
 .webstudio-header,
@@ -94,10 +122,22 @@ footer {
   font-size: 26px;
   line-height: 1.93;
   letter-spacing: 0.03em;
+  margin-left: 150px;
 }
 
 .webstudio-footer {
-  margin-left: 35px;
+  margin-top: 160px;
+}
+.navigation-list {
+  display: flex;
+  gap: 50px;
+  margin-left: 60px;
+}
+
+.header-contact-details {
+  display: flex;
+  gap: 40px;
+  margin-left: 370px;
 }
 
 .webstudio-header::after {
@@ -108,11 +148,6 @@ footer {
   content: "Studio";
   color: #ffffff;
 }
-.navigation-list {
-  display: flex;
-  gap: 50px;
-  margin-left: 93px;
-}
 
 .navigation-link {
   letter-spacing: 0.02em;
@@ -120,11 +155,6 @@ footer {
   text-decoration: none;
 }
 
-.header-contact-details {
-  display: flex;
-  gap: 40px;
-  margin-left: 320px;
-}
 .header-contact-link {
   letter-spacing: 0.02em;
   color: #757575;
@@ -157,6 +187,7 @@ footer {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 100%;
 }
 
 .team-members-list {
@@ -168,24 +199,6 @@ footer {
   text-align: center;
 }
 
-.request-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: #ffffff;
-  background: #2196f3;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-right: 19px;
-  padding-bottom: 10px;
-  display: flex;
-  margin: 0 auto;
-}
 .request-button:hover,
 .request-button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -273,6 +286,12 @@ footer {
   margin-bottom: 12px;
 }
 .footer-background {
-  width: 100%;
   background: #2f303a;
+  width: 100%;
+}
+.footer-contact-details {
+  margin-left: 110px;
+}
+.footer-contact {
+  margin-bottom: 12px;
 }
