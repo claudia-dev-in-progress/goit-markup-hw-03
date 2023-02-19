@@ -131,7 +131,7 @@ footer {
 .navigation-list {
   display: flex;
   gap: 50px;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .header-contact-details {
